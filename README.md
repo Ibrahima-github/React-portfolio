@@ -2,8 +2,6 @@
 
 ### [LIVE DEMO](https://www.ibrahimasall.com)
 
-![img](assets/ReactPortfolioMain.gif)
-
 # About [`particles-bg`](https://github.com/lindelof/particles-bg) Library
 #### This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg). It's very simple. Anyone can be a Musketeer with it.
 
