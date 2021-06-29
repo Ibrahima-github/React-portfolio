@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import profilepic from '../images/profilepic.jpeg';
 
 class About extends Component {
   render() {
     if (!this.props.data) return null;
 
     const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
+    //const profilepic = "../images/" + this.props.data.image;
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -24,16 +25,17 @@ class About extends Component {
               <img
                 className="profile-pic"
                 src={profilepic}
-                alt="Robert's picture with his dog Luna"
+                alt="Photo d'Ibrahima SALL"
+                style={{width:350, height:350}}
               />
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
+              <h2>A propos de moi</h2>
 
               <p>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>Details</h2>
                   <p className="address">
                     <span>{name}</span>
                     <br />

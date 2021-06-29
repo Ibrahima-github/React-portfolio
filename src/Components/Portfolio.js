@@ -31,7 +31,7 @@ class Portfolio extends Component {
        
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Projects.</h1>
+              <h1>Voici certains de mes projets.</h1>
 
               <div style={{height: "auto", margin: "0 auto", width : "50%"}}id="portfolio-wrapper">
                 {projects}

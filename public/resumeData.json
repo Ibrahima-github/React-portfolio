@@ -1,104 +1,104 @@
 {
   "main": {
-    "name":"Robert VanScoy",
-    "description":"Welcome to my React Portfolio Website. I have learned alot throughout the UM coding bootcamp and this site serves as a showcase of some of my favorite projects.",
-    "image":"profilepic.jpg",
-    "bio":"Down to earth inquisitive developer that is willing and able to learn new technologies. Always open to new methods of thinking and able to work well with others.",
-    "contactmessage":"If you would like to reach out to me, please send me an email.",
-    "email": "rvans003@fiu.edu",
-    "phone": "305-519-5421",
-    "github":"https://github.com/vanscoyro",
-    "project":"https://github.com/vanscoyro/ReactPortfolio",
+    "name":"Ibrahima SALL",
+    "description":"Bonjour, bienvenue sur mon portfolio réalisé avec React. En reconversion, j'ai appris beaucoup de choses durant mes formations dans le domaine de l'informatique  et ce site me sert à me présenter, mais aussi vous montrer mes capacités de programmation.",
+    "image":"profilepic.jpeg",
+    "bio":"Je découvre la programmation informatique après 13 ans dans la logistique qui connait un essort fulgurant grâce à l'ecommerce. Toujours enthousiaste à l'idée de découvrir de nouvelles choses et de travailler en équipe.",
+    "contactmessage":"Si vous voulez me contacter, n'hésitez pas à m'envoyer un email.",
+    "email": "ibrahimasall.dev@gmail.com",
+    "phone": "+33 7 52 99 75 01",
+    "github":"https://github.com/ibrahima-github",
+    "project":"https://github.com/ibrahima-github/ReactPortfolio",
     "address":{
-      "street":"14835 Sw 90 ter",
-      "city":"Miami",
-      "state":"Florida",
-      "zip": "33196"
+      "street":"41 rue Auguste Blanqui",
+      "city":"Choisy le roi",
+      "state":"France",
+      "zip": "94600"
     },
-    "website": "https://github.com/vanscoyro",
-    "resumedownload":"https://www.mediafire.com/file/6ed1sgbc4ws3xj7/RobertVanScoy.pdf/file",
+    "website": "https://www.ibrahimasall.com",
+    "resumedownload":"../documents/cv.pdf",
     "social":[
       {
         "name":"facebook",
-        "url":"https://www.facebook.com/robert.vanscoy.1",
+        "url":"https://www.facebook.com/profile.php?id=100067548330796",
         "className":"fa fa-facebook"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/robert-vanscoy-846a11186/",
+        "url":"https://www.linkedin.com/in/ibrahima-sall-developpeur/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"https://www.instagram.com/robakabob/?hl=en",
+        "url":"https://www.instagram.com/is_votreappsurmesure/",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"https://www.instagram.com/robakabob/?hl=en",
+        "url":"https://github.com/ibrahima-github",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Check out some of my experience. Work and school!",
+    "skillmessage":"Découvrez certaines de mes expériences. Réalisations et écoles de formation",
     "education":[
       {
-        "school":"Florida International University",
-        "degree":"Bachelors in Information Technology",
-        "graduated":"July 2019",
-        "description":"Throughout my college career, I was able to work on various coding projects and collaborative efforts that taught me how to work well with others. I also was a member of Alternative Breaks with which I did community service in Biloxi Mississippi over my Spring Break."
+        "school":"Afpa",
+        "degree":"Bac +2, titre professionel de développeur et web mobile",
+        "graduated":"Octobre 2019",
+        "description":"Durant cette formation, j'ai mis le premier pas dans l'univers du développement. Ca n'a pas été facile de s'adapter à la méthode d'apprentissage des technologies. Mais j'ai acquis de bonnes notions"
       },
       {
-        "school":"University of Miami Coding Bootcamp",
-        "degree":"Certificate of Completion",
-        "graduated":"May 2021",
-        "description":"This coding bootcamp exposed me to the tools of being a Full-Stack Web Developer. From tackling new and challenging languages, to working together with other developers, this course gave me alot of real-world coding experience that I would not have had if I chose to focus on independent study."
+        "school":"Doranco",
+        "degree":"Bac +3/4, Concepteur, développeur d'applications informatique",
+        "graduated":"Août 2021",
+        "description":"Avec déja une bonne base, ilm m'était simple de coder, avec de bonnes pratiques et de comprendre le contenu de formation. Je suis fin près à faire de la conception et développement d'applications mon métier parce qu'ayant reçu une très bonne formation, je suis complètement autonome dans l'apprentissage d'une nouvelle technologie."
       }
    
     ],
     "work":[
       {
-        "company":"Publix Supermarkets",
-        "title":"Customer Service Staff",
-        "years":"March 2012 - Present",
-        "description":"Publix has been instrumental for me professional and personal development. Starting at the age of 16,I constantly was exposed to new people and assisting them with unique issues. Publix has taught me how to handle customers and make sure they leave the store happy. I worked part time most of my career with Publix and from 2019 - the beginning of 2021 I was Full Time. I got 40 hour work week experience and learned alot about pacing myself especially on days with 10 hour shifts. Being I was Customer Service Staff, I got alot of experience with Money Services, Front End Management, and Daily Cash Tender Procedures."
+        "company":"Gefco",
+        "title":"Agent d'exploitation",
+        "years":"novembre 2017 - juin 2018",
+        "description":"Je travaillais dans un parc automobile ou j'étais responsable des enlêvements, du stockage et de la livraison de véhicules pour les clients. "
       },
       {
-        "company":"Assembly Legal",
-        "title":"Level 1 Technical Support",
-        "years":"March 2021 - Present",
-        "description":"My position with Assembly Legal is completly remote. It is a full time position where I spend the work-day supporting a software called Trialworks. This is a case management software for Law Firms that is integral to their day-to-day operations. There are typically two types of customers : Hosted and On-Premise. The difference between the two is Hosted are being hosted by Microsoft on Azure servers. For those customers, our support relates to how they access their remote workstation and ensuring their servers are operational and their profiles are correct. I have been recieving alot of exposure to IT management and have been working with Active Directory, SQL Management, and Drive Mapping / Printer management. I am on track to continue my training and be on the support queue for the other two Softwares supported by Assembly Legal : Needles and Neos."
+        "company":"Sanofi",
+        "title":"Technicien logistique ",
+        "years":"septembre 2018 - décembre 2018",
+        "description":"J'étais responsable de la réception et stockage de la matière première destinée à la fabrication de médicaments."
       }
     ],
     "skills":[
       {
         "name":"Node.js",
-        "level":"70%"
+        "level":"50%"
       },
       {
         "name":"MySql",
         "level":"65%"
       },
       {
-        "name":"Mongo",
-        "level":"60%"
+        "name":"SqlServer",
+        "level":"70%"
       },
       {
         "name":"CSS",
-        "level":"80%"
+        "level":"45%"
       },
       {
         "name":"ReactJs",
-        "level":"40%"
+        "level":"60%"
       },
       {
-        "name":"HTML",
-        "level":"80%"
+        "name":"C#",
+        "level":"70%"
       },
       {
         "name":"JAVA",
-        "level":"75%"
+        "level":"35%"
       }
     ]
   },

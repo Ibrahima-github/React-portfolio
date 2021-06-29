@@ -12,7 +12,7 @@ class Header extends Component {
       life: [1.5, 3],
       v: [2, 3],
       tha: [-40, 40],
-      // body: "./img/icon.png", // Whether to render pictures
+
       rotate: [0, 20],
       alpha: [0.6, 0],
       scale: [.05, 0.1],
@@ -53,25 +53,25 @@ class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+                Accueil
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                A propos de moi
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                Parcours
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Réalisations
               </a>
             </li>
 

@@ -19,7 +19,7 @@ class Contact extends Component {
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
-                <span>Get In Touch.</span>
+                <span>Me contacter.</span>
               </h1>
             </div>
 
@@ -36,7 +36,7 @@ class Contact extends Component {
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
-                      Name <span className="required">*</span>
+                      Votre nom <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -50,7 +50,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactEmail">
-                      Email <span className="required">*</span>
+                      Votre email <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -63,7 +63,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <label htmlFor="contactSubject">Subject</label>
+                    <label htmlFor="contactSubject">Sujet</label>
                     <input
                       type="text"
                       defaultValue=""
@@ -76,7 +76,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
+                      Votre message <span className="required">*</span>
                     </label>
                     <textarea
                       cols="50"
@@ -87,7 +87,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit">Envoyer</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
