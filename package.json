@@ -2,21 +2,24 @@
   "name": "react-resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vanscoyro.github.io/ReactPortfolio",
+  "homepage": "https://www.ibrahimasall.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "anix": "^1.3.6",
+    "dotenv": "^8.2.0",
+    "emailjs-com": "^3.1.0",
     "jquery": "^3.6.0",
-    "particles-bg": "^2.5.5",
-    "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-dotenv": "^0.1.3",
     "react-ga": "^3.3.0",
+    "react-particles-js": "^3.5.3",
     "react-reveal": "^1.2.2",
     "react-scripts": "4.0.3",
     "react-zmage": "^0.8.5-beta.36",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -47,5 +50,8 @@
   "devDependencies": {
     "chokidar": "^3.5.1",
     "gh-pages": "^3.1.0"
+  },
+   "react-dotenv": {
+    "whitelist": ["REACT_APP_SERVICE", "REACT_APP_USER", "REACT_APP_TEMPLATE "]
   }
 }

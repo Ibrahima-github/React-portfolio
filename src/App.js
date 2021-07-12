@@ -19,8 +19,9 @@ class App extends Component {
 
     ReactGA.initialize("UA-110570651-1");
     ReactGA.pageview(window.location.pathname);
+    
   }
-
+  
   getResumeData() {
     $.ajax({
       url: "./resumeData.json",
@@ -41,6 +42,7 @@ class App extends Component {
   }
 
   render() {
+    console.log({secret: process.env.REACT_APP_SECRET})
     return (
       <div className="App">
         <Header data={this.state.resumeData.main} />
@@ -50,8 +52,11 @@ class App extends Component {
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>
+      
     );
+    
   }
+  
 }
 
 export default App;

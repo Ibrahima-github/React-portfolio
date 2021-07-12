@@ -1,35 +1,12 @@
 import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import Particles from 'react-particles-js'
+import  '../App.css'
 
 class Header extends Component {
   render() {
     
-    let config = {
-      num: [4, 7],
-      rps: 0.1,
-      radius: [5, 40],
-      life: [1.5, 3],
-      v: [2, 3],
-      tha: [-40, 40],
-
-      rotate: [0, 20],
-      alpha: [0.6, 0],
-      scale: [.05, 0.1],
-      position: "all", // all or center or {x:1,y:1,width:100,height:100}
-      color: ["random", "#ff0000"],
-      cross: "bround", // cross or bround
-      random: null,  // or null,
-      g: 2,    // gravity
-      f: [0, 3], // force
-      onParticleUpdate: (ctx, particle) => {
-          ctx.beginPath();
-          ctx.rect(particle.p.x, particle.p.y, particle.radius * 2, particle.radius * 2);
-          ctx.fillStyle = particle.color;
-          ctx.fill();
-          ctx.closePath();
-      }
-    };
+    
 
     if (!this.props.data) return null;
 
@@ -37,11 +14,11 @@ class Header extends Component {
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
-
+    
     return (
+      
+      
       <header id="home">
-        <ParticlesBg config={config} type="custom" bg={true} />
-
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -49,6 +26,7 @@ class Header extends Component {
           <a className="mobile-btn" href="#home" title="Hide navigation">
             Hide navigation
           </a>
+       
 
           <ul id="nav" className="nav">
             <li className="current">
@@ -82,8 +60,27 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
-
         <div className="row banner">
+        <Particles
+          params={{
+            particles:{
+              number:{
+                value:40,
+                density:{
+                  enable: true,
+                  value_area:900
+                }
+              },
+              shape:{
+                type: "circle",
+                stroke:{
+                  width: 6,
+                  color: "#0000FF"
+                }
+              }
+            }
+          }}
+        />
           <div className="banner-text">
             <Fade bottom>
               <h1 className="responsive-headline">{name}</h1>
@@ -107,6 +104,7 @@ class Header extends Component {
 
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
+
             <i className="icon-down-circle"></i>
           </a>
         </p>

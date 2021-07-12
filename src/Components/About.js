@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
 import profilepic from '../images/profilepic.jpeg';
+import cv from '../documents/IbrahimaSall.pdf';
 
 class About extends Component {
+  onResumeClick(){
+    window.open(cv);
+  }
   render() {
     if (!this.props.data) return null;
 
@@ -15,7 +19,7 @@ class About extends Component {
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
+   // const resumeDownload = this.props.data.resumedownload;
 
     return (
       <section id="about">
@@ -40,9 +44,8 @@ class About extends Component {
                     <span>{name}</span>
                     <br />
                     <span>
-                      {street}
                       <br />
-                      {city} {state}, {zip}
+                      {zip}, {city} - {state}
                     </span>
                     <br />
                     <span>{phone}</span>
@@ -52,8 +55,8 @@ class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
+                    <a onClick={this.onResumeClick} className="button">
+                      Télécharger mon cv
                     </a>
                   </p>
                 </div>
