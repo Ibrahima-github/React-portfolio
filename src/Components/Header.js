@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
-import Particles from 'react-particles-js'
-import  '../App.css'
+import  '../App.css';
 
 class Header extends Component {
   render() {
@@ -10,7 +9,7 @@ class Header extends Component {
 
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
+    const projects = this.props.data.project;
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
@@ -19,16 +18,18 @@ class Header extends Component {
       
       
       <header id="home">
+        
         <nav id="nav-wrap">
+          
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
           </a>
           <a className="mobile-btn" href="#home" title="Hide navigation">
             Hide navigation
           </a>
-       
-
+          
           <ul id="nav" className="nav">
+            
             <li className="current">
               <a className="smoothscroll" href="#home">
                 Accueil
@@ -48,9 +49,9 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
+              {/* <a className="smoothscroll" href="#portfolio">
                 Réalisations
-              </a>
+              </a> */}
             </li>
 
             <li>
@@ -59,39 +60,24 @@ class Header extends Component {
               </a>
             </li>
           </ul>
+          
         </nav>
+        
         <div className="row banner">
-        <Particles
-          params={{
-            particles:{
-              number:{
-                value:40,
-                density:{
-                  enable: true,
-                  value_area:900
-                }
-              },
-              shape:{
-                type: "circle",
-                stroke:{
-                  width: 6,
-                  color: "#0000FF"
-                }
-              }
-            }
-          }}
-        />
+        
           <div className="banner-text">
+          
+
             <Fade bottom>
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h3>{description}</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
+                <a href={projects} className="button btn project-btn">
                   <i className="fa fa-book"></i>Project
                 </a>
                 <a href={github} className="button btn github-btn">
@@ -99,7 +85,9 @@ class Header extends Component {
                 </a>
               </ul>
             </Fade>
+            
           </div>
+          
         </div>
 
         <p className="scrolldown">

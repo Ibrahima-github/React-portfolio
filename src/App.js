@@ -7,7 +7,7 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
+import Particles from "react-particles-js";
 
 class App extends Component {
   constructor(props) {
@@ -42,13 +42,33 @@ class App extends Component {
   }
 
   render() {
-    console.log({secret: process.env.REACT_APP_SECRET})
     return (
+      
       <div className="App">
+        <Particles
+          params={{
+            particles:{
+              number:{
+                value:70,
+                density:{
+                  enable: true,
+                  value_area:1000
+                }
+              },
+              shape:{
+                type: "circle",
+                stroke:{
+                  width: 6,
+                  color: "#0000FF"
+                }
+              }
+            }
+          }}
+        />
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
+        {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>

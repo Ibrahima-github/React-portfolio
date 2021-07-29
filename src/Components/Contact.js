@@ -90,7 +90,7 @@ function Contact(props) {
                   Votre email <span className="required">*</span>
                 </label>
                 <input
-                  type="text"
+                  type="email"
                   size="35"
                   id="contactEmail"
                   name="reply_to"

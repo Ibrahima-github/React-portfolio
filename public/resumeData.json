@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Ibrahima SALL",
-    "description":"Bonjour, bienvenue sur mon portfolio réalisé avec React. En reconversion, j'ai appris beaucoup de choses durant mes formations dans le domaine de l'informatique  et ce site me sert à me présenter, mais aussi vous montrer mes capacités de programmation.",
+    "description":"Bonjour, bienvenue sur mon portfolio réalisé avec React. En reconversion, j'ai appris beaucoup de choses durant mes formations dans le domaine de l'informatique  et ce site me sert à me présenter, mais aussi vous lister mes compétences en programmation.",
     "image":"profilepic.jpeg",
     "bio":"Passionné par la programmation informatique et après 13 ans dans la logistique qui connait un essort fulgurant grâce à l'ecommerce, je me suis réorienté vers le développement. Toujours enthousiaste à l'idée de découvrir de nouvelles choses et de travailler en équipe.",
     "contactmessage":"Si vous voulez me contacter, n'hésitez pas à m'envoyer un email.",
@@ -16,7 +16,7 @@
       "zip": "94600"
     },
     "website": "https://www.ibrahimasall.com",
-    "resumedownload":"../documents/cv.pdf",
+    "resumedownload":"../documents/IbrahimaSall.pdf",
     "social":[
       {
         "name":"facebook",

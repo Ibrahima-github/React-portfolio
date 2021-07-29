@@ -13,7 +13,6 @@ class About extends Component {
     const name = this.props.data.name;
     //const profilepic = "../images/" + this.props.data.image;
     const bio = this.props.data.bio;
-    const street = this.props.data.address.street;
     const city = this.props.data.address.city;
     const state = this.props.data.address.state;
     const zip = this.props.data.address.zip;
@@ -29,7 +28,7 @@ class About extends Component {
               <img
                 className="profile-pic"
                 src={profilepic}
-                alt="Photo d'Ibrahima SALL"
+                alt="Ibrahima SALL"
                 style={{width:350, height:350}}
               />
             </div>
@@ -55,9 +54,9 @@ class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a onClick={this.onResumeClick} className="button">
+                    <button onClick={this.onResumeClick} className="button">
                       Télécharger mon cv
-                    </a>
+                    </button>
                   </p>
                 </div>
               </div>
