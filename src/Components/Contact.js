@@ -1,54 +1,38 @@
-import React from 'react';
-import { useState } from 'react';
+import React , {setState} from 'react';
 import { Fade, Slide } from "react-reveal";
-import { send } from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
 
 function Contact(props) {
-  const [toSend, setToSend] = useState({
-    to_name: '',
-    reply_to: '',
-    contactSubject: '',
-    message: '',
-  });
+  // const [toSend, setToSend] = useState({
+  //   to_name: '',
+  //   reply_to: '',
+  //   contactSubject: '',
+  //   message: '',
+  // });
 
 
   if (!props.data) return null;
   const name = props.data.name;
-  //const street = props.data.address.street;
   const city = props.data.address.city;
   const state = props.data.address.state;
   const zip = props.data.address.zip;
   const phone = props.data.phone;
   const message = props.data.contactmessage;
 
-
-
-
-  const onSubmit = (e) => {
+  function sendEmail(e) {
     e.preventDefault();
-    send(
-      process.env.REACT_APP_SERVICE,
-      process.env.REACT_APP_TEMPLATE,
-      toSend,
-      process.env.REACT_APP_USER
-    )
-      .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-        alert("Votre message a bien été envoyé");
-        
-      })
-      .catch((err) => {
-        console.log('FAILED...', err);
+
+    emailjs.sendForm(process.env.REACT_APP_SERVICE, process.env.REACT_APP_TEMPLATE, e.target, process.env.REACT_APP_USER)
+      .then((result) => {
+          alert("Votre message a bien été envoyé.");
+       
+      }, (error) => {
+        alert("Il y'a eu une erreur lors de l'envoie de votre message, réessayez ultérieurement.");
       });
+      e.target.reset();
 
-  };
-
-
-  const handleChange = (e) => {
-    setToSend({ ...toSend, [e.target.name]: e.target.value });
-  };
-
+    }
   return (
     <section id="contact">
       <Fade bottom duration={1000}>
@@ -69,7 +53,7 @@ function Contact(props) {
         <Slide left duration={1000}>
           <div className="eight columns">
 
-            <form onSubmit={onSubmit}>
+            <form id="form" onSubmit={sendEmail}>
               <div>
                 <label htmlFor="contactName">
                   Votre nom <span className="required">*</span>
@@ -80,8 +64,7 @@ function Contact(props) {
                   size="35"
                   id="contactName"
                   name="from_name"
-                  onChange={handleChange}
-                  value={toSend.from_name}
+                  required
                 />
               </div>
 
@@ -94,8 +77,7 @@ function Contact(props) {
                   size="35"
                   id="contactEmail"
                   name="reply_to"
-                  onChange={handleChange}
-                  value={toSend.reply_to}
+                  required
                 />
               </div>
 
@@ -106,8 +88,9 @@ function Contact(props) {
                   size="35"
                   id="contactSubject"
                   name="contactSubject"
-                  onChange={handleChange}
-                  value={toSend.contactSubject}
+                  
+                  // onChange={handleChange}
+                  // value={toSend.contactSubject}
                 />
               </div>
 
@@ -120,8 +103,7 @@ function Contact(props) {
                   type="text"
                   id="contactMessage"
                   name="message"
-                  onChange={handleChange}
-                  value={toSend.message}
+                  required
                 ></textarea>
               </div>
 

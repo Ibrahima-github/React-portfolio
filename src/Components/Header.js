@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import Fade from "react-reveal";
 import  '../App.css';
 
+
 class Header extends Component {
+  
   render() {
     
     
-
     if (!this.props.data) return null;
 
     const projects = this.props.data.project;
@@ -17,7 +18,7 @@ class Header extends Component {
     return (
       
       
-      <header id="home">
+      <header id="home" >
         
         <nav id="nav-wrap">
           
@@ -78,7 +79,7 @@ class Header extends Component {
             <Fade bottom duration={2000}>
               <ul className="social">
                 <a href={projects} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                  <i className="fa fa-book"></i>Projet
                 </a>
                 <a href={github} className="button btn github-btn">
                   <i className="fa fa-github"></i>Github

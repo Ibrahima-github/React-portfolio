@@ -4,7 +4,7 @@
     "description":"Bonjour, bienvenue sur mon portfolio réalisé avec React. En reconversion, j'ai appris beaucoup de choses durant mes formations dans le domaine de l'informatique  et ce site me sert à me présenter, mais aussi vous lister mes compétences en programmation.",
     "image":"profilepic.jpeg",
     "bio":"Passionné par la programmation informatique et après 13 ans dans la logistique qui connait un essort fulgurant grâce à l'ecommerce, je me suis réorienté vers le développement. Toujours enthousiaste à l'idée de découvrir de nouvelles choses et de travailler en équipe.",
-    "contactmessage":"Si vous voulez me contacter, n'hésitez pas à m'envoyer un email.",
+    "contactmessage":"Si vous voulez me contacter, n'hésitez pas à me soumettre ce formulaire.",
     "email": "ibrahimasall.dev@gmail.com",
     "phone": "+33 7 52 99 75 01",
     "github":"https://github.com/ibrahima-github",
@@ -41,34 +41,42 @@
     ]
   },
   "resume":{
-    "skillmessage":"Découvrez certaines de mes expériences. Réalisations et écoles de formation",
+    "skillmessage":"Vous pouvez ici voir les technologies avec lesquelles je suis le plus familier.",
     "education":[
+      {
+        "school":"Doranco",
+      "degree":"Bac +3/4, Concepteur, développeur d'applications informatique",
+      "graduated":"Août 2021",
+      "description":"Avec déja une bonne base, il m'était simple de coder, avec de bonnes pratiques et de comprendre le contenu de formation. Je suis fin près à faire de la conception et développement d'applications mon métier parce qu'ayant reçu une très bonne formation, je suis complètement autonome dans l'apprentissage d'une nouvelle technologie."
+    
+      },
+      
       {
         "school":"Afpa",
         "degree":"Bac +2, titre professionel de développeur et web mobile",
         "graduated":"Octobre 2019",
         "description":"Durant cette formation, j'ai mis le premier pas dans l'univers du développement. Ca n'a pas été facile de s'adapter à la méthode d'apprentissage des technologies. Mais j'ai acquis de bonnes notions"
-      },
-      {
-        "school":"Doranco",
-        "degree":"Bac +3/4, Concepteur, développeur d'applications informatique",
-        "graduated":"Août 2021",
-        "description":"Avec déja une bonne base, ilm m'était simple de coder, avec de bonnes pratiques et de comprendre le contenu de formation. Je suis fin près à faire de la conception et développement d'applications mon métier parce qu'ayant reçu une très bonne formation, je suis complètement autonome dans l'apprentissage d'une nouvelle technologie."
       }
    
     ],
     "work":[
       {
-        "company":"Gefco",
-        "title":"Agent d'exploitation",
-        "years":"novembre 2017 - juin 2018",
-        "description":"Je travaillais dans un parc automobile ou j'étais responsable des enlêvements, du stockage et de la livraison de véhicules pour les clients. "
+        "company":"Mtbe",
+        "title":"Développeur Web",
+        "years":"juillet - Août 2021",
+        "description":"Je travaille sur la création d'un site web en React."
       },
       {
-        "company":"Sanofi",
-        "title":"Technicien logistique ",
-        "years":"septembre 2018 - décembre 2018",
-        "description":"J'étais responsable de la réception et stockage de la matière première destinée à la fabrication de médicaments."
+        "company":"Micro entreprise: Ibrahima SALL",
+        "title":"Développeur Web",
+        "years":"Depuis 2019",
+        "description":"Depuis la création de mon statut, je crée essentiellement des sites de ecommerce avec WooCommerce et des sites vitrines avec React."
+      },
+      {
+        "company":"Micro entreprise: Surya Mohan Kudikala",
+        "title":"Développeur Wordpress ",
+        "years":"Septembre - Octobre 2019",
+        "description":"J'ai travaillé sur la création d'un site de eRestaurant avec WooCommerce."
       }
     ],
     "skills":[
@@ -99,6 +107,10 @@
       {
         "name":"JAVA",
         "level":"35%"
+      },
+      {
+        "name":"Wordpress",
+        "level":"70%"
       }
     ]
   },
