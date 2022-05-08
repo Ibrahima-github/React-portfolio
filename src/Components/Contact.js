@@ -1,4 +1,4 @@
-import React , {setState} from 'react';
+import React  from 'react';
 import { Fade, Slide } from "react-reveal";
 import emailjs from 'emailjs-com';
 
@@ -90,7 +90,7 @@ function Contact(props) {
                   name="contactSubject"
                   
                   // onChange={handleChange}
-                  // value={toSend.contactSubject}
+                   //value={toSend.contactSubject}
                 />
               </div>
 

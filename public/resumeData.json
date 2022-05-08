@@ -6,7 +6,7 @@
     "bio":"Passionné par la programmation informatique et après 13 ans dans la logistique qui connait un essort fulgurant grâce à l'ecommerce, je me suis réorienté vers le développement. Toujours enthousiaste à l'idée de découvrir de nouvelles choses et de travailler en équipe.",
     "contactmessage":"Si vous voulez me contacter, n'hésitez pas à me soumettre ce formulaire.",
     "email": "ibrahimasall.dev@gmail.com",
-    "phone": "+33 7 52 99 75 01",
+    "phone": "+33 7 53 35 81 12",
     "github":"https://github.com/ibrahima-github",
     "project":"https://github.com/ibrahima-github/React-portfolio",
     "address":{
@@ -117,46 +117,29 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Note Taker App",
-        "category":"Web App deployed to Heroku that uses Express.",
-        "image":"noteTaker.gif",
-        "url":"https://note-taker-robert.herokuapp.com/",
-        "repo":"https://github.com/vanscoyro/NoteTakerApp"
+        "title":"Site e-commerce ",
+        "category":"Site développé avec Wordpress",
+        "image":"../images/portfolio/itechtouch.PNG",
+        "url":"https://itechtouch.com/"
       },
       {
-        "title":"Employee Tracker",
-        "category":"CLI Application that allows Managers to manage employees.",
+        "title":"Blog",
+        "category":"Blog développé avec React et API Asp .Net.",
         "image":"employee_tracker.gif",
         "url":"https://youtu.be/B9lgCpPGvjQm",
         "repo":"https://github.com/vanscoyro/EmployeeManagement"
       },
       {
-        "title":"Password Generator",
-        "category":"Allows the user to generate a random password based on preferred criteria",
-        "image":"password_generator.jpg",
-        "url":"https://vanscoyro.github.io/password_generator/",
-        "repo":"https://github.com/vanscoyro/password_generator"
+        "title":"Flappy Bird Clone",
+        "category":"Application mobile créée avec React Native",
+        "image":"142933265-d2a42056-c1c4-469c-ab14-8a307fc962c9.mp4",
+        "repo":"https://github.com/Ibrahima-github/Flappy-Bird-React-Native"
       },
       {
-        "title":"Readme Generator",
-        "category":"CLI program that generates a Readme for Github projects",
-        "image":"readmeGenerator.gif",
-        "url":"youtu.be/bytmrz6kcii",
-        "repo":"https://github.com/vanscoyro/ReadmeGenerator"
-      },
-      {
-        "title":"Weather Dashboard",
-        "category":"This website allows users to find the current and five day weather forcast for a city they enter in the Search Box",
-        "image":"weatherDashboard.jpg",
-        "url":"https://vanscoyro.github.io/Weather_Dashboard/",
-        "repo":"https://github.com/vanscoyro/Weather_Dashboard"
-      },
-      {
-        "title":"Team Profile Generator",
-        "category":"CLI that generates custom HTML page based on user input",
-        "image":"teamProfile.gif",
-        "url":"https://youtu.be/ohYUFBFRaIY",
-        "repo":"https://github.com/vanscoyro/Team_Profile_Generator"
+        "title":"Tesla Clone",
+        "category":"Front-end du Clône de l'application mobile de Tesla avec React-Native",
+        "image":"teslaClone.mp4",
+        "repo":"https://github.com/Ibrahima-github/React-Native-TeslaClone"
       }
       
     

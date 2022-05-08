@@ -11,3 +11,7 @@
     height: 860;
     width: 100vw;
 }
+
+.three columns{
+    align-items: center;
+}
